@@ -1,0 +1,433 @@
+var caves = {  
+  "type":"FeatureCollection",
+  "features": [  
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Axbridge Caving Group",
+      "Area":"Mendip",
+      "Website":"http://axbridgecavinggroup.wikidot.com/"
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Bristol Exploration Club",
+      "Area":"Mendip",
+      "Website":"http://www.bec-cave.org.uk"
+    },
+    "geometry":{
+      "type":"Point",
+      "coordinates":[
+        -2.657340,
+        51.251768]
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Cerberus Spelaeological Society",
+      "Area":"Mendip",
+      "Website":"http://www.cerberusspeleo.org.uk"
+    },
+    "geometry":{
+      "type":"Point",
+      "coordinates":[
+        -2.5018497,
+        51.222916]
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Cheddar Caving Club",
+      "Area":"Mendip",
+      "Website":"http://www.cheddar-caving-club.org.uk/"
+    },
+    "geometry":{
+      "type":"Point",
+      "coordinates":[
+        20,
+        51251768]
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Hades CC",
+      "Area":"Mendip",
+      "Website":"http://www.hadescc.org.uk"
+    },
+    "geometry":{
+      "type":"Point",
+      "coordinates":[
+        20,
+        51251768]
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Mendip Caving Group",
+      "Area":"Mendip",
+      "Website":"http://www.mendipcavinggroup.org.uk"
+    },
+    "geometry":{
+      "type":"Point",
+      "coordinates":[
+        -2.697496,
+        51.301561]
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Mendip Nature Research Committee",
+      "Area":"Mendip",
+      "Website":"http://www.mnrc.org.uk"
+    },
+    "geometry":{
+      "type":"Point",
+      "coordinates":[
+        -2.581272,
+        51.244456]
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Shepton Mallet Caving Club",
+      "Area":"Mendip",
+      "Website":"http://www.shepton.org.uk"
+    },
+    "geometry":{
+      "type":"Point",
+      "coordinates":[
+        -2.654848,
+        51.251445]
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"South Bristol Speleological Society",
+      "Area":"Mendip",
+      "Website":"www.sbss.info"
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Southsea Spelaeological Society",
+      "Area":"Mendip",
+      "Website":"www.southseacavers.org"
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Wealden Cave & Mine Society",
+      "Area":"Mendip",
+      "Website":"http://www.wcms.org.uk"
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Wessex Cave Club",
+      "Area":"Mendip",
+      "Website":"http://www.wessex-cave-club.org"
+    },
+    "geometry":{
+      "type":"Point",
+      "coordinates":[
+        -2.665869,
+        51.255311]
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Black Rose Caving Club",
+      "Area":"Yorkshire",
+      "Website":"http://www.brcc.org.uk"
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Black Sheep Diggers",
+      "Area":"Yorkshire",
+      "Website":"https://www.facebook.com/Black-Sheep-Diggers-381281961884165/"
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Bradford Pothole Club",
+      "Area":"Yorkshire",
+      "Website":"http://www.bpc-cave.org.uk/"
+    },
+    "geometry":{
+      "type":"Point",
+      "coordinates":[
+        -2.2821255,
+        54.1454232]
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Craven Pothole Club",
+      "Area":"Yorkshire",
+      "Website":"http://www.cravenpotholeclub.org/"
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Morley Potholing Club",
+      "Area":"Yorkshire",
+      "Website":"http://www.morleycavers.org.uk/"
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Northern Pennine Club",
+      "Area":"Yorkshire",
+      "Website":"http://www.northernpennineclub.org.uk/"
+    },
+    "geometry":{
+      "type":"Point",
+      "coordinates":[
+        -2.4283318,
+        54.118803]
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Red Rose CPC",
+      "Area":"Yorkshire",
+      "Website":"http://www.rrcpc.org.uk/"
+    },
+    "geometry":{
+      "type":"Point",
+      "coordinates":[
+        -2.518617,
+        54.227623]
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Swaledale Outdoor Club",
+      "Area":"Yorkshire",
+      "Website":"http://www.swaledaleoutdoorclub.org.uk"
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"White Rose Pothole Club",
+      "Area":"Yorkshire",
+      "Website":"http://www.white-rose.org.uk"
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"YSS",
+      "Area":"Yorkshire",
+      "Website":"http://www.yssuk.com"
+    },
+    "geometry":{
+      "type":"Point",
+      "coordinates":[
+        -2.2939627,
+        54.1210481]
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Crewe Climbing and Potholing Club",
+      "Area":"Peak District",
+      "Website":"http://www.ccpc.org.uk"
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Darfar Potholing Club",
+      "Area":"Peak District",
+      "Website":"http://www.darfarpc.org.uk/"
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Derbyshire Caving Association",
+      "Area":"Peak District",
+      "Website":"http://www.thedca.org.uk"
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Eldon Pothole Club",
+      "Area":"Peak District",
+      "Website":"http://www.eldonpotholeclub.org.uk/"
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Orpheus Caving Club",
+      "Area":"Peak District",
+      "Website":"http://www.orpheuscavingclub.org.uk"
+    },
+    "geometry":{
+      "type":"Point",
+      "coordinates":[
+        -1.783156,
+        53.162152]
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Technical Speleological Group",
+      "Area":"Peak District",
+      "Website":"http://www.tsgcaving.co.uk"
+    },
+    "geometry":{
+      "type":"Point",
+      "coordinates":[
+        -1.775418,
+        53.343435]
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"The Masson Caving Group",
+      "Area":"Peak District",
+      "Website":"http://massoncavers.com/"
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Cambrian Caving Council",
+      "Area":"South Wales",
+      "Website":"http://cambriancavingcouncil.org.uk/"
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Chelsea Spelaelogical Society",
+      "Area":"South Wales",
+      "Website":"http://www.chelseaspelaeo.org.uk/"
+    },
+    "geometry":{
+      "type":"Point",
+      "coordinates":[
+        -3.156622,
+        51.835127]
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Croydon Caving Club",
+      "Area":"South Wales",
+      "Website":"http://www.croydoncavingclub.org.uk/"
+    },
+    "geometry":{
+      "type":"Point",
+      "coordinates":[
+        -3.5511173,
+        51.811519]
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"South Wales Caving Club",
+      "Area":"South Wales",
+      "Website":"http://www.swcc.org.uk"
+    },
+    "geometry":{
+      "type":"Point",
+      "coordinates":[
+        -3.661131,
+        51.825775]
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Westminster Speleological Group",
+      "Area":"South Wales",
+      "Website":"http://www.wsg.org.uk"
+    },
+    "geometry":{
+      "type":"Point",
+      "coordinates":[
+        -3.544872,
+        51.752367]
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Gloucester Speleological Society",
+      "Area":"Forest of Dean",
+      "Website":"http://www.gloucester-speleo.org"
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Royal Forest of Dean Caving Club",
+      "Area":"Forest of Dean",
+      "Website":"http://www.rfdcc.org.uk/"
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Devon Speleological Society",
+      "Area":"Devon",
+      "Website":"http://www.devonss.org.uk"
+    },
+    "geometry":{
+      "type":"Point",
+      "coordinates":[
+        -3.783131,
+        50.480946]
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Plymouth Caving Group",
+      "Area":"Devon",
+      "Website":"http://www.plymouthcavinggroup.org.uk"
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Grampian Speleological Group",
+      "Area":"Scotland",
+      "Website":"http://www.gsg.org.uk/"
+    },
+    "coordinates":[
+        -5.028023,
+        58.056469]
+  }
+]}

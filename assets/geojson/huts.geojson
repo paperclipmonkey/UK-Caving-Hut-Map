@@ -1,0 +1,400 @@
+var caves = {  
+  "type":"FeatureCollection",
+  "features": [  
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Bristol Exploration Club",
+      "Area":"Mendip",
+      "Website":"http://www.bec-cave.org.uk",
+      "DryingRoom":true,
+      "GuestBunks": 20,
+      "MemberBunks": 6,
+      "GuestFees": 5
+    },
+    "geometry":{
+      "type":"Point",
+      "coordinates":[
+        -2.657340,
+        51.251768]
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Cerberus Spelaeological Society",
+      "Area":"Mendip",
+      "Website":"http://www.cerberusspeleo.org.uk",
+      "DryingRoom":true,
+      "GuestBunks": 31,
+      "MemberBunks": 6,
+      "GuestFees": 5
+    },
+    "geometry":{
+      "type":"Point",
+      "coordinates":[
+        -2.5018497,
+        51.222916]
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Mendip Caving Group",
+      "Area":"Mendip",
+      "Website":"http://www.mendipcavinggroup.org.uk",
+      "DryingRoom":false,
+      "GuestBunks": 30,
+      "MemberBunks": 0,
+      "GuestFees": 6
+    },
+    "geometry":{
+      "type":"Point",
+      "coordinates":[
+        -2.697496,
+        51.301561]
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Mendip Nature Research Committee",
+      "Area":"Mendip",
+      "Website":"http://www.mnrc.org.uk",
+      "DryingRoom":true,
+      "GuestBunks": 21,
+      "MemberBunks": 15,
+      "GuestFees": 6
+    },
+    "geometry":{
+      "type":"Point",
+      "coordinates":[
+        -2.589527,
+        51.242060]
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Shepton Mallet Caving Club",
+      "Area":"Mendip",
+      "Website":"http://www.shepton.org.uk",
+      "DryingRoom":true,
+      "GuestBunks": 25,
+      "MemberBunks": 6,
+      "GuestFees": 4.5
+    },
+    "geometry":{
+      "type":"Point",
+      "coordinates":[
+        -2.654848,
+        51.251445]
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Wessex Cave Club",
+      "Area":"Mendip",
+      "Website":"http://www.wessex-cave-club.org",
+      "DryingRoom":true,
+      "GuestBunks": 44,
+      "GuestFees": 6
+    },
+    "geometry":{
+      "type":"Point",
+      "coordinates":[
+        -2.665869,
+        51.255311]
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Bradford Pothole Club",
+      "Area":"Yorkshire",
+      "Website":"http://www.bpc-cave.org.uk/",
+      "DryingRoom":true,
+      "GuestBunks": 15,
+      "GuestFees": 6
+    },
+    "geometry":{
+      "type":"Point",
+      "coordinates":[
+        -2.2821255,
+        54.1454232]
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Northern Pennine Club",
+      "Area":"Yorkshire",
+      "Website":"http://www.northernpennineclub.org.uk/",
+      "DryingRoom":true,
+      "GuestBunks": 20,
+      "GuestFees": 5
+    },
+    "geometry":{
+      "type":"Point",
+      "coordinates":[
+        -2.4283318,
+        54.118803]
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Red Rose CPC",
+      "Area":"Yorkshire",
+      "Website":"http://www.rrcpc.org.uk/",
+      "DryingRoom":true,
+      "GuestBunks": 20,
+      "GuestFees": 5
+    },
+    "geometry":{
+      "type":"Point",
+      "coordinates":[
+        -2.518617,
+        54.227623]
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"YSS",
+      "Area":"Yorkshire",
+      "Website":"http://www.yssuk.com",
+      "DryingRoom":true,
+      "GuestBunks": 32,
+      "GuestFees": 5
+    },
+    "geometry":{
+      "type":"Point",
+      "coordinates":[
+        -2.2939627,
+        54.1210481]
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"University of Leeds (Selside)",
+      "Area":"Yorkshire",
+      "Website":"http://sport.leeds.ac.uk/facilities/outdoors/",
+      "DryingRoom":true,
+      "GuestBunks": 23,
+      "GuestFees": 150
+    },
+    "geometry":{
+      "type":"Point",
+      "coordinates":[
+        -2.3354833,
+        54.177516]
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Orpheus Caving Club",
+      "Area":"Peak District",
+      "Website":"http://www.orpheuscavingclub.org.uk",
+      "DryingRoom":true,
+      "GuestBunks": 18,
+      "GuestFees": 6
+    },
+    "geometry":{
+      "type":"Point",
+      "coordinates":[
+        -1.783156,
+        53.162152]
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Technical Speleological Group",
+      "Area":"Peak District",
+      "Website":"http://www.tsgcaving.co.uk",
+      "DryingRoom":true,
+      "GuestBunks": 18,
+      "GuestFees": 5
+    },
+    "geometry":{
+      "type":"Point",
+      "coordinates":[
+        -1.775418,
+        53.343435]
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"University of Leeds (Dalehead)",
+      "Area":"Lake District",
+      "Website":"http://sport.leeds.ac.uk/facilities/outdoors/",
+      "DryingRoom":true,
+      "GuestBunks": 36,
+      "GuestFees": 120
+    },
+    "geometry":{
+      "type":"Point",
+      "coordinates":[
+        -3.169820,
+        54.395571]
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Lancashire Caving and Climbing Club (Dan-y-Mynydd)",
+      "Area":"Lake District",
+      "Website":"http://www.lancashirecavingandclimbingclub.co.uk/",
+      "DryingRoom":false,
+      "GuestBunks": 11,
+      "GuestFees": 9
+    },
+    "geometry":{
+      "type":"Point",
+      "coordinates":[
+        -3.9619791,
+        52.989722]
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Lancashire Caving and Climbing Club (Dan-y-Mynydd)",
+      "Area":"North Wales",
+      "Website":"http://www.lancashirecavingandclimbingclub.co.uk/",
+      "DryingRoom":true,
+      "GuestBunks": 20,
+      "GuestFees": 9
+    },
+    "geometry":{
+      "type":"Point",
+      "coordinates":[ 
+        -3.1078970,
+        54.351142]
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Chelsea Spelaelogical Society",
+      "Area":"South Wales",
+      "Website":"http://www.chelseaspelaeo.org.uk/",
+      "DryingRoom":false,
+      "GuestBunks": 16,
+      "GuestFees": 5
+    },
+    "geometry":{
+      "type":"Point",
+      "coordinates":[
+        -3.156622,
+        51.835127]
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Croydon Caving Club",
+      "Area":"South Wales",
+      "Website":"http://www.croydoncavingclub.org.uk/",
+      "DryingRoom":true,
+      "GuestBunks": 15,
+      "GuestFees": 5
+    },
+    "geometry":{
+      "type":"Point",
+      "coordinates":[
+        -3.5511173,
+        51.811519]
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"South Wales Caving Club",
+      "Area":"South Wales",
+      "Website":"http://www.swcc.org.uk",
+      "DryingRoom":true,
+      "GuestBunks": 30,
+      "GuestFees": 9
+    },
+    "geometry":{
+      "type":"Point",
+      "coordinates":[
+        -3.661131,
+        51.825775]
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Westminster Speleological Group",
+      "Area":"South Wales",
+      "Website":"http://www.wsg.org.uk",
+      "DryingRoom":true,
+      "GuestBunks": 18,
+      "GuestFees": 4
+    },
+    "geometry":{
+      "type":"Point",
+      "coordinates":[
+        -3.544872,
+        51.752367]
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Devon Speleological Society",
+      "Area":"Devon",
+      "Website":"http://www.devonss.org.uk",
+      "DryingRoom":true,
+      "GuestBunks": 16,
+      "GuestFees": 11
+    },
+    "geometry":{
+      "type":"Point",
+      "coordinates":[
+        -3.783131,
+        50.480946]
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"William Pengelly Cave Studies Trust",
+      "Area":"Devon",
+      "Website":"http://www.pengellytrust.org/",
+      "DryingRoom":true,
+      "GuestBunks": 25,
+      "GuestFees": 10
+    },
+    "geometry":{
+      "type":"Point",
+      "coordinates":[
+        -3.771330,
+        50.484378]
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Grampian Speleological Group",
+      "Area":"Scotland",
+      "Website":"http://www.gsg.org.uk/",
+      "DryingRoom":true,
+      "GuestBunks": 20,
+      "GuestFees": 8
+    },
+    "geometry":{
+      "type":"Point",
+      "coordinates":[
+          -5.028023,
+          58.056469]
+    }
+  }
+]}
