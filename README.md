@@ -1,9 +1,7 @@
-# gower-caves
-Caves of the Gower Peninsula
+# Hut Map
+Map of caving huts in the UK
 
 
-View the website at: [http://paperclipmonkey.github.io/gower-caves/](http://paperclipmonkey.github.io/gower-caves/)
+View the map at: [http://paperclipmonkey.github.io/UK-Caving-Hut-Map/](http://paperclipmonkey.github.io/UK-Caving-Hut-Map/)
 
-A simple map showing the location of caves on the Gower Peninsula, South Wales, UK.
-
-It also has additional layers with an old OS map and geology of the region.
+A simple map showing the locations of caving huts in the UK as well as basic information on the facilities.
