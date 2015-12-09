@@ -128,6 +128,23 @@ var caves = {
   {
     "type":"Feature",
     "properties":{
+      "Name":"Yorkshire Ramblers Club (Lowstern)",
+      "Area":"Yorkshire",
+      "Website":"http://www.yrc.org.uk/",
+      "DryingRoom":true,
+      "GuestBunks": 16,
+      "GuestFees": 12
+    },
+    "geometry":{
+      "type":"Point",
+      "coordinates":[
+        -2.404468,
+        54.116431]
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
       "Name":"Northern Pennine Club",
       "Area":"Yorkshire",
       "Website":"http://www.northernpennineclub.org.uk/",
@@ -213,6 +230,23 @@ var caves = {
   {
     "type":"Feature",
     "properties":{
+      "Name":"Peak District Climbing & Caving Hut",
+      "Area":"Peak District",
+      "Website":"http://thedpc.co.uk/",
+      "DryingRoom":false,
+      "GuestBunks": 13,
+      "GuestFees": 9
+    },
+    "geometry":{
+      "type":"Point",
+      "coordinates":[
+        -1.654719,
+        53.275441]
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
       "Name":"Technical Speleological Group",
       "Area":"Peak District",
       "Website":"http://www.tsgcaving.co.uk",
@@ -242,6 +276,23 @@ var caves = {
       "coordinates":[
         -3.169820,
         54.395571]
+    }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Name":"Yorkshire Ramblers Club (Low Hall Garth)",
+      "Area":"Lake District",
+      "Website":"www.yrc.org.uk",
+      "DryingRoom":true,
+      "GuestBunks": 12,
+      "GuestFees": 10
+    },
+    "geometry":{
+      "type":"Point",
+      "coordinates":[
+        -3.066781,
+        54.415817]
     }
   },
   {
