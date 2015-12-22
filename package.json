@@ -1,0 +1,30 @@
+{
+  "name": "huts",
+  "version": "1.0.0",
+  "description": "A map of huts in the UK",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://paperclipmonkey@github.com/paperclipmonkey/UK-Caving-Hut-Map.git"
+  },
+  "keywords": [
+    "caving",
+    "climbing",
+    "walking",
+    "accommodation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paperclipmonkey/UK-Caving-Hut-Map/issues"
+  },
+  "homepage": "https://github.com/paperclipmonkey/UK-Caving-Hut-Map#readme",
+  "dependencies": {
+    "csv": "^0.4.6",
+    "geojson-stream": "0.0.1",
+    "stream-transform": "^0.1.1"
+  }
+}
