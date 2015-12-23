@@ -23,8 +23,13 @@
   },
   "homepage": "https://github.com/paperclipmonkey/UK-Caving-Hut-Map#readme",
   "dependencies": {
+    "bower-requirejs": "^1.2.0",
     "csv": "^0.4.6",
     "geojson-stream": "0.0.1",
     "stream-transform": "^0.1.1"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.3"
   }
 }

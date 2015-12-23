@@ -1,0 +1,48 @@
+{
+  "name": "huts",
+  "description": "A map of huts in the UK",
+  "main": "index.js",
+  "authors": [
+    "Michael Waterworth <mike@3equals.co.uk>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "caving",
+    "climbing",
+    "walking",
+    "accommodation"
+  ],
+  "homepage": "https://github.com/paperclipmonkey/UK-Caving-Hut-Map",
+  "moduleType": [
+    "amd",
+    "globals"
+  ],
+  "dependencies": {
+    "angular": "1.4.x",
+    "jquery": "~2.1.1",
+    "bootstrap": "~3.1.1",
+    "angular-route": "1.4.x",
+    "angular-resource": "1.4.x",
+    "angular-animate": "1.4.x",
+    "font-awesome": "~4.5.0",
+    "requirejs": "2.1.x",
+    "bower-leaflet": "0.7.7",
+    "requirejs-plugins": "~1.0.3",
+    "jquery-ui": "jqueryui#~1.11.4",
+    "ui-leaflet": "~1.0.0",
+    "leaflet": "~0.7.7",
+    "angular-simple-logger": "~0.1.5",
+    "leaflet-sidebar": "~0.1.8"
+  },
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "scripts": {
+    "postinstall": "./node_modules/.bin/bower-requirejs -c assets/js/require-config.js"
+  }
+}

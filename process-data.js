@@ -9,7 +9,7 @@ var parse = require('csv')
 var transform = require('stream-transform')
 var geojsonStream = require('geojson-stream')
 
-var inputFile = 'data/huts.csv';
+var inputFile = 'data/huts.csv'
 var outputFile = 'assets/geojson/huts.geojson'
 
 //Pipe for processing outputted features and bundling them in to a GeoJSON feature collection
