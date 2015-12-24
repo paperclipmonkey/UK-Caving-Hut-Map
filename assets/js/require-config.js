@@ -50,7 +50,5 @@ require.config({
     'angular-simple-logger': '../../bower_components/angular-simple-logger/dist/angular-simple-logger',
     'leaflet-sidebar': '../../bower_components/leaflet-sidebar/src/L.Control.Sidebar'
   },
-  packages: [
-
-  ]
-});
+  packages: []
+})
