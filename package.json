@@ -4,7 +4,8 @@
   "description": "A map of huts in the UK",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "make geojson && python -m SimpleHTTPServer"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,21 @@
   },
   "devDependencies": {
     "grunt": "^0.4.5",
-    "grunt-contrib-jshint": "^0.11.3"
+    "grunt-contrib-jshint": "^0.11.3",
+    "standard": "4.5.0"
+  },
+  "standard": {
+    "ignore": [
+      "/node_modules/*",
+      "/bower_components/*"
+    ],
+    "global": [
+      "it",
+      "describe",
+      "before",
+      "after",
+      "L",
+      "define"
+    ]
   }
 }
