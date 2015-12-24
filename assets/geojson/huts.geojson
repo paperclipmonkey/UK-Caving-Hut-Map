@@ -12,7 +12,7 @@
 ,
 {"type":"Feature","properties":{"club":"K Fellfarers","website":"","guestbunks":"","hutname":"High House","pppn":"POA Sole occupancy","dryingroom":"TRUE","gridref":"NY 235119","location":"High House, Borrowdale, KESWICK, Cumbria, CA12 5XJ","lat":"54.496835","lng":"-3.1816832","caveclub":"FALSE"},"geometry":{"type":"Point","coordinates":[-3.1816832,54.496835]}}
 ,
-{"type":"Feature","properties":{"club":"Lancashire Caving & Climbing Club","website":"http://www.lancashirecavingandclimbingclub.co.uk/","guestbunks":"20","hutname":"Tranearth","pppn":"9","dryingroom":"TRUE","gridref":"SD 281957","location":"Tranearth, Torver, CONISTON, Cumbria, LA21 8BP","lat":"54.351177","lng":"-3.1077703","caveclub":"TRUE"},"geometry":{"type":"Point","coordinates":[-3.1077703,54.351177]}}
+{"type":"Feature","properties":{"club":"Lancashire Caving & Climbing Club","website":"www.lancashirecavingandclimbingclub.co.uk/","guestbunks":"20","hutname":"Tranearth","pppn":"9","dryingroom":"TRUE","gridref":"SD 281957","location":"Tranearth, Torver, CONISTON, Cumbria, LA21 8BP","lat":"54.351177","lng":"-3.1077703","caveclub":"TRUE"},"geometry":{"type":"Point","coordinates":[-3.1077703,54.351177]}}
 ,
 {"type":"Feature","properties":{"club":"Lancashire Mountaineering Club","website":"","guestbunks":"","hutname":"The Loft adjacent to Blea Tarn House","pppn":"8","dryingroom":"FALSE","gridref":"NY 295048","location":"The Loft adjacent to Blea Tarn House, Little Langdale, AMBLESIDE, Cumbria,LA22 9PG","lat":"54.433925","lng":"-3.0883511","caveclub":"FALSE"},"geometry":{"type":"Point","coordinates":[-3.0883511,54.433925]}}
 ,
@@ -30,7 +30,7 @@
 ,
 {"type":"Feature","properties":{"club":"Climbers' Club","website":"","guestbunks":"","hutname":"R O Downes","pppn":"12","dryingroom":"FALSE","gridref":"SK 249772","location":"Froggatt, Derbyshire","lat":"53.290761","lng":"-1.6278044","caveclub":"FALSE"},"geometry":{"type":"Point","coordinates":[-1.6278044,53.290761]}}
 ,
-{"type":"Feature","properties":{"club":"Derbyshire Pennine Club","website":"http://thedpc.co.uk/hut","guestbunks":"13","hutname":"Carlswark Cottage","pppn":"8","dryingroom":"FALSE","gridref":"SK 232755","location":"Stoney Middleton, Peak District, North Derbyshire, S32 4TN","lat":"53.090327","lng":"-4.0559473","caveclub":"TRUE"},"geometry":{"type":"Point","coordinates":[-4.0559473,53.090327]}}
+{"type":"Feature","properties":{"club":"Derbyshire Pennine Club","website":"thedpc.co.uk/hut","guestbunks":"13","hutname":"Carlswark Cottage","pppn":"8","dryingroom":"FALSE","gridref":"SK 232755","location":"Stoney Middleton, Peak District, North Derbyshire, S32 4TN","lat":"53.090327","lng":"-4.0559473","caveclub":"TRUE"},"geometry":{"type":"Point","coordinates":[-4.0559473,53.090327]}}
 ,
 {"type":"Feature","properties":{"club":"Oread Mountaineering Club","website":"","guestbunks":"","hutname":"Heathy Lea","pppn":"8/6.5","dryingroom":"FALSE","gridref":"SK 273722","location":"One mile from Baslow, off main road A619 for Chesterfield, Close to Chatsworth, Birchen and Gardoms edges, Marked as Saw Mill on O.S. White Peak Map, Peak District","lat":"53.245362","lng":"-1.5938081","caveclub":"FALSE"},"geometry":{"type":"Point","coordinates":[-1.5938081,53.245362]}}
 ,
@@ -82,7 +82,7 @@
 ,
 {"type":"Feature","properties":{"club":"Karabiner Mountaineering Club","website":"","guestbunks":"","hutname":"Ty Powdwr","pppn":"7","dryingroom":"TRUE","gridref":"SH 585609","location":"Dinorwic, Caernarfon, LL55 3ET","lat":"53.127183","lng":"-4.1156962","caveclub":"FALSE"},"geometry":{"type":"Point","coordinates":[-4.1156962,53.127183]}}
 ,
-{"type":"Feature","properties":{"club":"Lancashire Caving & Climbing Club","website":"http://www.lancashirecavingandclimbingclub.co.uk/","guestbunks":"11","hutname":"Dan y Mynydd","pppn":"9","dryingroom":"FALSE","gridref":"SH 684454","location":"Tanygrisiau, Nr. Blaenau Ffestiniog, Gwynedd, LL41 3ST","lat":"52.988454","lng":"-3.9618383","caveclub":"FALSE"},"geometry":{"type":"Point","coordinates":[-3.9618383,52.988454]}}
+{"type":"Feature","properties":{"club":"Lancashire Caving & Climbing Club","website":"www.lancashirecavingandclimbingclub.co.uk/","guestbunks":"11","hutname":"Dan y Mynydd","pppn":"9","dryingroom":"FALSE","gridref":"SH 684454","location":"Tanygrisiau, Nr. Blaenau Ffestiniog, Gwynedd, LL41 3ST","lat":"52.988454","lng":"-3.9618383","caveclub":"FALSE"},"geometry":{"type":"Point","coordinates":[-3.9618383,52.988454]}}
 ,
 {"type":"Feature","properties":{"club":"Lincoln Mountaineering Club","website":"","guestbunks":"","hutname":"Ty Gwyn","pppn":"8","dryingroom":"FALSE","gridref":"SH 580625","location":"Ty Gwyn, Deiniolen, CAERNARFON, Gwynedd","lat":"53.140787","lng":"-4.1242241","caveclub":"FALSE"},"geometry":{"type":"Point","coordinates":[-4.1242241,53.140787]}}
 ,
@@ -94,7 +94,7 @@
 ,
 {"type":"Feature","properties":{"club":"Mynydd Climbing Club","website":"","guestbunks":"","hutname":"Blaen y Nant","pppn":"8","dryingroom":"TRUE","gridref":"SH 738603","location":"Blaen y Nant, Crafnant Road, TREFRIW, Gwynedd, LL27 0JZ","lat":"53.12454","lng":"-3.8863395","caveclub":"FALSE"},"geometry":{"type":"Point","coordinates":[-3.8863395,53.12454]}}
 ,
-{"type":"Feature","properties":{"club":"Northern Pennine Club","website":"http://www.northernpennineclub.org.uk/","guestbunks":"20","hutname":"Greenclose House","pppn":"5","dryingroom":"TRUE","gridref":"SD 721693","location":"Greenclose House, Clapham, Via Lancaster, LA2 8HW","lat":"54.118803","lng":"-2.4283318","caveclub":"TRUE"},"geometry":{"type":"Point","coordinates":[-2.4283318,54.118803]}}
+{"type":"Feature","properties":{"club":"Northern Pennine Club","website":"www.northernpennineclub.org.uk/","guestbunks":"20","hutname":"Greenclose House","pppn":"5","dryingroom":"TRUE","gridref":"SD 721693","location":"Greenclose House, Clapham, Via Lancaster, LA2 8HW","lat":"54.118803","lng":"-2.4283318","caveclub":"TRUE"},"geometry":{"type":"Point","coordinates":[-2.4283318,54.118803]}}
 ,
 {"type":"Feature","properties":{"club":"North London Mountaineering Club","website":"","guestbunks":"","hutname":"Bryn Brethynau","pppn":"5","dryingroom":"FALSE","gridref":"SH 737572","location":"Bryn Brethynau, Capel Curig, BETWS-Y-COED, Gwynedd","lat":"53.097137","lng":"-3.8872846","caveclub":"FALSE"},"geometry":{"type":"Point","coordinates":[-3.8872846,53.097137]}}
 ,
@@ -128,7 +128,7 @@
 ,
 {"type":"Feature","properties":{"club":"Wolverhampton Mountaineering Club","website":"","guestbunks":"","hutname":"Tal y Braich","pppn":"8","dryingroom":"FALSE","gridref":"SH 587625","location":"Tal y Braich, Deiniolen, CAERNARFON, Gwynedd","lat":"53.140496","lng":"-4.1129846","caveclub":"FALSE"},"geometry":{"type":"Point","coordinates":[-4.1129846,53.140496]}}
 ,
-{"type":"Feature","properties":{"club":"Yorkshire Ramblers Club","website":"http://www.yrc.org.uk/","guestbunks":"16","hutname":"Lowstern","pppn":"12","dryingroom":"TRUE","gridref":"SD 736691","location":"Lowstern, Clapham, SETTLE, North Yorkshire","lat":"54.116675","lng":"-2.404479","caveclub":"TRUE"},"geometry":{"type":"Point","coordinates":[-2.404479,54.116675]}}
+{"type":"Feature","properties":{"club":"Yorkshire Ramblers Club","website":"www.yrc.org.uk/","guestbunks":"16","hutname":"Lowstern","pppn":"12","dryingroom":"TRUE","gridref":"SD 736691","location":"Lowstern, Clapham, SETTLE, North Yorkshire","lat":"54.116675","lng":"-2.404479","caveclub":"TRUE"},"geometry":{"type":"Point","coordinates":[-2.404479,54.116675]}}
 ,
 {"type":"Feature","properties":{"club":"Cwellyn Arms","website":"","guestbunks":"","hutname":"Big Bunkhouse","pppn":"15","dryingroom":"TRUE","gridref":"SH 566540","location":"Cwellyn Arms, Rhyd Ddu, At the foot of Snowdon, Gwynedd, LL54 6TL","lat":"53.064818","lng":"-4.141928","caveclub":"FALSE"},"geometry":{"type":"Point","coordinates":[-4.141928,53.064818]}}
 ,
@@ -182,10 +182,10 @@
 ,
 {"type":"Feature","properties":{"club":"Devon Speleological Society","website":"www.devonss.org.uk","guestbunks":"16","hutname":"","pppn":"11","dryingroom":"TRUE","gridref":"","location":"","lat":"50.480946","lng":"-3.783131","caveclub":"TRUE"},"geometry":{"type":"Point","coordinates":[-3.783131,50.480946]}}
 ,
-{"type":"Feature","properties":{"club":"Grampian Speleological Group","website":"http://www.gsg.org.uk/","guestbunks":"20","hutname":"","pppn":"8","dryingroom":"TRUE","gridref":"","location":"","lat":"58.056469","lng":"-5.028023","caveclub":"TRUE"},"geometry":{"type":"Point","coordinates":[-5.028023,58.056469]}}
+{"type":"Feature","properties":{"club":"Grampian Speleological Group","website":"www.gsg.org.uk/","guestbunks":"20","hutname":"","pppn":"8","dryingroom":"TRUE","gridref":"","location":"","lat":"58.056469","lng":"-5.028023","caveclub":"TRUE"},"geometry":{"type":"Point","coordinates":[-5.028023,58.056469]}}
 ,
-{"type":"Feature","properties":{"club":"William Pengelly Cave Studies Trust","website":"http://www.pengellytrust.org/","guestbunks":"25","hutname":"","pppn":"10","dryingroom":"TRUE","gridref":"","location":"","lat":"50.484378","lng":"-3.77133","caveclub":"TRUE"},"geometry":{"type":"Point","coordinates":[-3.77133,50.484378]}}
+{"type":"Feature","properties":{"club":"William Pengelly Cave Studies Trust","website":"www.pengellytrust.org/","guestbunks":"25","hutname":"","pppn":"10","dryingroom":"TRUE","gridref":"","location":"","lat":"50.484378","lng":"-3.77133","caveclub":"TRUE"},"geometry":{"type":"Point","coordinates":[-3.77133,50.484378]}}
 ,
-{"type":"Feature","properties":{"club":"University of Leeds","website":"http://sport.leeds.ac.uk/facilities/outdoors/","guestbunks":"23","hutname":"Selside","pppn":"POA Sole occupancy","dryingroom":"TRUE","gridref":"","location":"","lat":"54.177516","lng":"-2.3354833","caveclub":"FALSE"},"geometry":{"type":"Point","coordinates":[-2.3354833,54.177516]}}
+{"type":"Feature","properties":{"club":"University of Leeds","website":"sport.leeds.ac.uk/facilities/outdoors/","guestbunks":"23","hutname":"Selside","pppn":"POA Sole occupancy","dryingroom":"TRUE","gridref":"","location":"","lat":"54.177516","lng":"-2.3354833","caveclub":"FALSE"},"geometry":{"type":"Point","coordinates":[-2.3354833,54.177516]}}
 ,
-{"type":"Feature","properties":{"club":"University of Leeds","website":"http://sport.leeds.ac.uk/facilities/outdoors/","guestbunks":"36","hutname":"Dalehead","pppn":"POA Sole occupancy","dryingroom":"TRUE","gridref":"","location":"","lat":"54.395571","lng":"-3.16982","caveclub":"FALSE"},"geometry":{"type":"Point","coordinates":[-3.16982,54.395571]}}]}
+{"type":"Feature","properties":{"club":"University of Leeds","website":"sport.leeds.ac.uk/facilities/outdoors/","guestbunks":"36","hutname":"Dalehead","pppn":"POA Sole occupancy","dryingroom":"TRUE","gridref":"","location":"","lat":"54.395571","lng":"-3.16982","caveclub":"FALSE"},"geometry":{"type":"Point","coordinates":[-3.16982,54.395571]}}]}
