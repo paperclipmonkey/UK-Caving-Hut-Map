@@ -7,31 +7,21 @@
 	<title>Caving Hut Map</title>
 	
   <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
-
-  <!--    Leaflet     -->
-  <link rel="stylesheet" href="bower_components/bower-leaflet/leaflet.css" />
-
-<!--   <link rel="stylesheet" href="assets/css/leaflet.label.css" />
-  <link rel="stylesheet" href="assets/css/leaflet.panel.css" />
-  <link rel="stylesheet" href="assets/css/leaflet.sidebar.css" /> Found -->
-
-  <script data-main="assets/js/init" src="bower_components/requirejs/require.js"></script>
-  <script src="assets/js/require-config.js"></script>
-
-  <script src="bower_components/jquery/dist/jquery.min.js"></script>
-  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-
-<!--  <script src="assets/js/leaflet.label.js"></script>
-  <script src="assets/js/leaflet.edgemarker.js"></script>
-  <script src="assets/js/leaflet.panel.js"></script>
-  <script src="assets/js/leaflet.sidebar.js"></script>
-  <script src="assets/js/oms.min.js"></script> -->
-
+  <!--      Leaflet       -->
+  <link rel="stylesheet" href="bower_components/leaflet/dist/leaflet.css" /> -->
+  <link rel="stylesheet" href="bower_components/leaflet-sidebar/src/L.Control.Sidebar.css" />
   <!--     Custom CSS     -->
   <link href="assets/css/map.css" rel="stylesheet" />
 
+
+  <!--      RequireJS     -->
+  <script data-main="assets/js/map" src="bower_components/requirejs/require.js"></script>
+  <script src="assets/js/require-config.js"></script>
+
+
+
+
 </head>
-<body ng-controller="MarkersAddRemoveController">
-  <leaflet lf-center="uk" layers="layers" geojson="geojson" event-broadcast="events" height="100%" width="100%"></leaflet>
+<body>
 </body>
 </html>

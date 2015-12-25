@@ -32,7 +32,8 @@
     "ui-leaflet": "~1.0.0",
     "leaflet": "~0.7.7",
     "angular-simple-logger": "~0.1.5",
-    "leaflet-sidebar": "~0.1.8"
+    "leaflet-sidebar": "~0.1.8",
+    "Leaflet.awesome-markers": "leaflet-awesome-markers#~2.0.2"
   },
   "private": true,
   "ignore": [

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "make geojson && python -m SimpleHTTPServer"
+    "start": "make geojson && bower install && ./node_modules/.bin/bower-requirejs -c assets/js/require-config.js && python -m SimpleHTTPServer"
   },
   "repository": {
     "type": "git",
