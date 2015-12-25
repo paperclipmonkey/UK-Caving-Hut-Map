@@ -16,10 +16,10 @@ require.config({
     'Leaflet.awesome-markers': [
       'leaflet'
     ],
-    'leaflet-google': [
+    'leaflet-bing-layer': [
       'leaflet'
     ],
-    'bootstrap': [
+    bootstrap: [
       'jquery'
     ],
     'leaflet-sidebar': [
@@ -33,9 +33,7 @@ require.config({
     }
   },
   paths: {
-    'leaflet-google': './leaflet-google',
     bootstrap: '../../bower_components/bootstrap/dist/js/bootstrap',
-    'bower-leaflet': '../../bower_components/bower-leaflet/leaflet-src',
     jquery: '../../bower_components/jquery/dist/jquery',
     requirejs: '../../bower_components/requirejs/require',
     json: '../../bower_components/requirejs-plugins/src/json',
@@ -53,12 +51,7 @@ require.config({
     leaflet: '../../bower_components/leaflet/dist/leaflet-src',
     'leaflet-sidebar': '../../bower_components/leaflet-sidebar/src/L.Control.Sidebar',
     'Leaflet.awesome-markers': '../../bower_components/Leaflet.awesome-markers/dist/leaflet.awesome-markers',
-    'angular-animate': '../../bower_components/angular-animate/angular-animate',
-    'ui-leaflet': '../../bower_components/ui-leaflet/dist/ui-leaflet',
-    'angular-route': '../../bower_components/angular-route/angular-route',
-    angular: '../../bower_components/angular/angular',
-    'angular-simple-logger': '../../bower_components/angular-simple-logger/dist/angular-simple-logger',
-    'angular-resource': '../../bower_components/angular-resource/angular-resource'
+    'leaflet-bing-layer': '../../bower_components/leaflet-bing-layer/leaflet-bing-layer'
   },
   packages: [
 

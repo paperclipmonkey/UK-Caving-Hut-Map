@@ -18,22 +18,16 @@
     "globals"
   ],
   "dependencies": {
-    "angular": "1.4.x",
     "jquery": "~2.1.1",
     "bootstrap": "~3.1.1",
-    "angular-route": "1.4.x",
-    "angular-resource": "1.4.x",
-    "angular-animate": "1.4.x",
     "font-awesome": "~4.5.0",
     "requirejs": "2.1.x",
-    "bower-leaflet": "0.7.7",
     "requirejs-plugins": "~1.0.3",
     "jquery-ui": "jqueryui#~1.11.4",
-    "ui-leaflet": "~1.0.0",
-    "leaflet": "~0.7.7",
-    "angular-simple-logger": "~0.1.5",
     "leaflet-sidebar": "~0.1.8",
-    "Leaflet.awesome-markers": "leaflet-awesome-markers#~2.0.2"
+    "Leaflet.awesome-markers": "leaflet-awesome-markers#~2.0.2",
+    "leaflet-bing-layer": "https://github.com/gmaclennan/leaflet-bing-layer.git#3.0.1",
+    "leaflet": "1.0.0-beta.2"
   },
   "private": true,
   "ignore": [

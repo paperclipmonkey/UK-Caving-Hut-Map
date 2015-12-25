@@ -4,16 +4,16 @@ define([
   'jquery-ui',
   'leaflet',
   'Leaflet.awesome-markers',
-  'leaflet-google',
+  'leaflet-bing-layer',
   'leaflet-sidebar',
   'json!../geojson/huts.geojson'
 ], function (
   bootstrap,
   jquery,
   jqueryui,
-  leaflet,
+  L,
   awesomeMarkers,
-  leafletgoogle,
+  leafletBing,
   sidebar,
   geojson
 ) {
@@ -57,4 +57,35 @@ define([
         }
       }
     }
+
+    // initialize the map on the "map" div with a given center and zoom
+    var map = L.map('map', {
+      center: [54.5906, -3.0],
+      zoom: 6
+    })
+
+    var bingLayer = L.tileLayer.bing('AlOSk9s7dT-NuGYcSPavlvaFmf6sJVkvyqt7AegBWg1BtJY4-OIHmUIogjKM9QpQ')
+    map.addLayer(bingLayer)
+
+    markers = {
+      'caving': new L.AwesomeMarkers.icon({
+        icon: 'home',
+        prefix: 'fa',
+        markerColor: 'red'
+      }),
+      'mountain': new L.AwesomeMarkers.icon({
+        icon: 'home',
+        prefix: 'fa',
+        markerColor: 'red'
+      })
+    }
+
+    L.geoJson(geojson, {
+      pointToLayer: function (feature, latLng) {
+        return new L.Marker(latLng, {icon: markers.caving}).addTo(map);
+      },
+      onEachFeature: function (feature, layer) {
+          layer.bindPopup(feature.properties.description);
+      }
+    }).addTo(map);
 })
