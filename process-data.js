@@ -23,6 +23,17 @@ var output = fs.createWriteStream(outputFile)
 
 // Transformation function that's applied to the records during pipeing
 var transformer = transform(function (record, callback) {
+
+  //Excel saves boolean values as 'TRUE' and 'FALSE'
+  //Convert these to JS booleans
+ for (var ri in record) {
+    if(record[ri] === "TRUE"){
+      record[ri] = true;
+    } else if(record[ri] === "FALSE"){
+      record[ri] = false;
+    }
+  }
+
   var newRecord = {
     'type': 'Feature',
     'properties': record,

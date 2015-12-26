@@ -26,8 +26,9 @@
     "jquery-ui": "jqueryui#~1.11.4",
     "leaflet-sidebar": "~0.1.8",
     "Leaflet.awesome-markers": "leaflet-awesome-markers#~2.0.2",
-    "leaflet-bing-layer": "https://github.com/gmaclennan/leaflet-bing-layer.git#3.0.1",
-    "leaflet": "1.0.0-beta.2"
+    "leaflet-bing-layer": "https://github.com/paperclipmonkey/leaflet-bing-layer.git",
+    "leaflet": "1.0.0-beta.2",
+    "handlebars": "~4.0.5"
   },
   "private": true,
   "ignore": [

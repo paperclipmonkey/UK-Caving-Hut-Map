@@ -7,7 +7,9 @@
 
 
 	<title>Caving Hut Map</title>
-	
+
+  <!-- Bing maps required -->	
+  <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=Promise"></script>
 
   <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
   <link href="bower_components/font-awesome/css/font-awesome.css" rel="stylesheet" />
@@ -18,6 +20,49 @@
   <!--     Custom CSS     -->
   <link href="assets/css/map.css" rel="stylesheet" />
 
+  <!-- HBS template for popup -->
+  <script id="popup-template" type="text/x-handlebars-template">
+    <div class="entry">
+      <h4>{{club}}</h4>
+      <div class="body">
+        <div class="floatright">
+          {{#if guestbunks}}
+            <span>
+              No. bunks: {{guestbunks}}
+            </span>
+          {{/if}}
+
+          <span>PPPN: {{pppn}}</span>
+
+          {{~#if dryingroom}}
+            <span>Drying room: &#10004;</span>
+          {{~^~}}
+            <span>Drying room: &#10007;</span>
+          {{~/if~}}
+
+          {{#if gridref}}
+            <span>OS Grid reference: {{gridref}}</span>
+          {{/if}}
+
+          {{~#if caveclub}}
+            <span>Caving club: &#10004;</span>
+          {{~^~}}
+            <span>Caving club: &#10007;</span>
+          {{~/if~}}
+
+        </div>
+        {{#if hutname}}
+          <h6>{{hutname}}</h6>
+        {{/if}}
+        {{location}}
+        {{#if website}}
+          <span><a href="http://{{website}}">{{website}}</a></span>
+        {{/if}}
+        <span><a href="http://maps.google.com/maps?z=12&t=m&q=loc:{{lat}}+{{lng}}">View on Google Maps</a></span>
+        <span><a href="https://github.com/paperclipmonkey/UK-Caving-Hut-Map/blob/master/data/huts.csv">Edit this entry</a></span>
+      </div>
+    </div>
+  </script>
 
   <!--      RequireJS     -->
   <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=Promise"></script>

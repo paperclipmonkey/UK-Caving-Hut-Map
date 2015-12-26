@@ -51,7 +51,8 @@ require.config({
     leaflet: '../../bower_components/leaflet/dist/leaflet-src',
     'leaflet-sidebar': '../../bower_components/leaflet-sidebar/src/L.Control.Sidebar',
     'Leaflet.awesome-markers': '../../bower_components/Leaflet.awesome-markers/dist/leaflet.awesome-markers',
-    'leaflet-bing-layer': '../../bower_components/leaflet-bing-layer/leaflet-bing-layer'
+    'leaflet-bing-layer': '../../bower_components/leaflet-bing-layer/leaflet-bing-layer',
+    handlebars: '../../bower_components/handlebars/handlebars'
   },
   packages: [
 
