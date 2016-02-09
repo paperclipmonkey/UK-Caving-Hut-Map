@@ -48,7 +48,7 @@ require.config({
     'Markdown.Converter': '../../bower_components/requirejs-plugins/lib/Markdown.Converter',
     propertyParser: '../../bower_components/requirejs-plugins/src/propertyParser',
     'jquery-ui': '../../bower_components/jquery-ui/jquery-ui',
-    leaflet: '../../bower_components/leaflet/dist/leaflet-src',
+    leaflet: 'leaflet/leaflet-src',
     'leaflet-sidebar': '../../bower_components/leaflet-sidebar/src/L.Control.Sidebar',
     'Leaflet.awesome-markers': '../../bower_components/Leaflet.awesome-markers/dist/leaflet.awesome-markers',
     'leaflet-bing-layer': '../../bower_components/leaflet-bing-layer/leaflet-bing-layer',
