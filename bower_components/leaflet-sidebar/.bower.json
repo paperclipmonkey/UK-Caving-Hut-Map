@@ -1,6 +1,6 @@
 {
   "name": "leaflet-sidebar",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "homepage": "https://github.com/turbo87/leaflet-sidebar",
   "authors": [
     "Tobias Bieniek <tobias.bieniek@gmx.de>"
@@ -22,11 +22,11 @@
   "ignore": [
     "node_modules"
   ],
-  "_release": "0.1.8",
+  "_release": "0.1.9",
   "_resolution": {
     "type": "version",
-    "tag": "v0.1.8",
-    "commit": "e917db66c7cfce59a81e931b0b5b4ac40ab9f5af"
+    "tag": "v0.1.9",
+    "commit": "d8cccacd19b074b2153beeb0de3c189f4e9d133f"
   },
   "_source": "git://github.com/Turbo87/leaflet-sidebar.git",
   "_target": "~0.1.8",
