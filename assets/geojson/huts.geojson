@@ -172,9 +172,9 @@
 ,
 {"type":"Feature","properties":{"club":"Technical Speleological Group","website":"www.tsgcaving.co.uk","guestbunks":"18","hutname":"The Chapel","pppn":"5","dryingroom":true,"gridref":"","location":"","lat":"53.343435","lng":"-1.775418","caveclub":true},"geometry":{"type":"Point","coordinates":[-1.775418,53.343435]}}
 ,
-{"type":"Feature","properties":{"club":"Chelsea Spelaelogical Society","website":"www.chelseaspelaeo.org.uk/","guestbunks":"16","hutname":"Whitewalls","pppn":"5","dryingroom":false,"gridref":"","location":"","lat":"51.835127","lng":"-3.156622","caveclub":true},"geometry":{"type":"Point","coordinates":[-3.156622,51.835127]}}
+{"type":"Feature","properties":{"club":"Chelsea Spelaelogical Society","website":"www.chelseaspelaeo.org.uk/","guestbunks":"16","hutname":"Whitewalls","pppn":"5","dryingroom":true,"gridref":"","location":"","lat":"51.835127","lng":"-3.156622","caveclub":true},"geometry":{"type":"Point","coordinates":[-3.156622,51.835127]}}
 ,
-{"type":"Feature","properties":{"club":"Croydon Caving Club","website":"www.croydoncavingclub.org.uk","guestbunks":"15","hutname":"Godre Pentre","pppn":"5","dryingroom":true,"gridref":"","location":"","lat":"51.811519","lng":"-3.5511173","caveclub":true},"geometry":{"type":"Point","coordinates":[-3.5511173,51.811519]}}
+{"type":"Feature","properties":{"club":"Croydon Caving Club","website":"www.croydoncavingclub.org.uk","guestbunks":"15","hutname":"Godre Pentre","pppn":"5","dryingroom":true,"gridref":"","location":"","lat":"51.808993","lng":"-3.554072","caveclub":true},"geometry":{"type":"Point","coordinates":[-3.554072,51.808993]}}
 ,
 {"type":"Feature","properties":{"club":"South Wales Caving Club","website":"www.swcc.org.uk","guestbunks":"30","hutname":"","pppn":"9","dryingroom":true,"gridref":"","location":"1-10 Powell St, Penwyllt, Pen-y-Cae, Swansea SA9 1GQ","lat":"51.825775","lng":"-3.661131","caveclub":true},"geometry":{"type":"Point","coordinates":[-3.661131,51.825775]}}
 ,
