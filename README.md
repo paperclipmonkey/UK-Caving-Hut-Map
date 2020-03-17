@@ -1,5 +1,5 @@
 # Hut Map
-###Map of caving and mountaineering huts in the UK
+### Map of caving and mountaineering huts in the UK
 A map showing the locations of huts in the UK as well as information on the facilities.
 
 
